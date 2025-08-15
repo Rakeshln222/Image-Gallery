@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelVault - Creative Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="gallery-header">
+            <h1 class="logo">Pixel<span>Vault</span></h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search images...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <button class="btn-upload"><i class="fas fa-cloud-upload-alt"></i> Upload</button>
+                <div class="user-avatar">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User">
+                </div>
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <ul class="folders">
+                <li class="active"><i class="fas fa-images"></i> All Images</li>
+                <li><i class="fas fa-camera"></i> Camera</li>
+                <li><i class="fas fa-mobile-alt"></i> Screenshots</li>
+                <li><i class="fas fa-palette"></i> Artwork</li>
+                <li><i class="fas fa-file-download"></i> Downloads</li>
+                <li><i class="fas fa-heart"></i> Favorites</li>
+                <li><i class="fas fa-trash"></i> Recently Deleted</li>
+            </ul>
+            
+            <div class="storage-info">
+                <div class="storage-progress">
+                    <div class="progress-bar" style="width: 65%;"></div>
+                </div>
+                <p>65% of 15GB used</p>
+            </div>
+        </nav>
+
+        <main class="gallery-content">
+            <div class="gallery-toolbar">
+                <h2>All Images</h2>
+                <div class="view-options">
+                    <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
+                    <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
+                </div>
+            </div>
+
+            <div class="image-grid">
+                <!-- Images will be added dynamically by JavaScript -->
+            </div>
+        </main>
+
+        <div class="lightbox">
+            <div class="lightbox-content">
+                <img src="" alt="Enlarged view">
+                <button class="lightbox-close"><i class="fas fa-times"></i></button>
+                <button class="lightbox-nav prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="lightbox-nav next"><i class="fas fa-chevron-right"></i></button>
+                <div class="image-info">
+                    <h3 class="image-title">Image Title</h3>
+                    <p class="image-date">June 15, 2023</p>
+                    <div class="image-actions">
+                        <button><i class="fas fa-download"></i></button>
+                        <button><i class="fas fa-share-alt"></i></button>
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
