@@ -1,11 +1,7 @@
-
-
 # 📸 PixelVault - Creative Image Gallery
 
 PixelVault is a **modern, interactive, and responsive image gallery web application** built with **HTML, CSS, and JavaScript**.
 It allows users to browse, filter, and view images in a clean UI with lightbox functionality, search options, and multiple viewing modes.
-
----
 
 ## 🚀 Features
 
@@ -32,7 +28,6 @@ It allows users to browse, filter, and view images in a clean UI with lightbox f
 * **Font Awesome** → Icons for buttons & navigation
 * **Unsplash Random API** → Placeholder demo images
 
----
 
 ## 📂 Project Structure
 
@@ -70,7 +65,6 @@ PixelVault/
 
    * Sidebar shows **65% of 15GB used** with progress bar.
 
----
 
 ## 🎨 UI Preview
 
@@ -84,7 +78,6 @@ PixelVault/
 
   * Enlarged image, navigation arrows, actions at bottom.
 
----
 
 ## 🔧 Installation & Usage
 
@@ -103,7 +96,6 @@ PixelVault/
    * Modify styles in `style.css`.
    * Add user authentication or backend for uploads (optional future feature).
 
----
 
 ## 📌 Future Enhancements
 
@@ -113,14 +105,9 @@ PixelVault/
 * 🔹 Drag & drop image upload.
 * 🔹 Dark mode toggle.
 
----
 
 ## 👨‍💻 Author
 
 **Rakesh L N**
 📧rakeshln0000@gmail.com
-🌐 https://github.com/Rakeshln222
-
----
-
-Do you want me to **make this README.md file downloadable** (as `.md`) so you can directly include it in your project folder?
+🌐https://github.com/Rakeshln222
